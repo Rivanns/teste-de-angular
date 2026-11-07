@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { HelloWorld } from './hello-world/hello-world';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, HelloWorld],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
